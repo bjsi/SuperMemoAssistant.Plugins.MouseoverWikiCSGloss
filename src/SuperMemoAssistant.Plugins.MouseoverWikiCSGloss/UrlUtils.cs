@@ -43,8 +43,6 @@ namespace SuperMemoAssistant.Plugins.MouseoverWikiCSGloss
     }
   }
 
-
-
   public static class UrlUtils
   {
     public static string ConvRelToAbsLink(string baseUrl, string relUrl)

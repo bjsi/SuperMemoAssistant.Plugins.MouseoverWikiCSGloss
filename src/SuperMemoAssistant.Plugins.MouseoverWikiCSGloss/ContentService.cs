@@ -1,7 +1,17 @@
-﻿using System;
+﻿using Anotar.Serilog;
+using MouseoverPopup.Interop;
+using PluginManager.Interop.Sys;
+using SuperMemoAssistant.Extensions;
+using SuperMemoAssistant.Interop.SuperMemo.Elements.Builders;
+using SuperMemoAssistant.Plugins.MouseoverWikiCSGloss.Model;
+using SuperMemoAssistant.Sys.Remoting;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace SuperMemoAssistant.Plugins.MouseoverWikiCSGloss
@@ -132,6 +142,5 @@ namespace SuperMemoAssistant.Plugins.MouseoverWikiCSGloss
         responseMsg?.Dispose();
       }
     }
-
   }
 }
